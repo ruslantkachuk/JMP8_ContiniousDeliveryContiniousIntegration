@@ -1,6 +1,6 @@
 Continious delivery and continious integration. Jenkins
 -----------------------
-Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks such as building, testing, and deploying software.
+Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks such as building, testing, and deploying software. https://jenkins.io
 
 Vagrant is a tool for building and managing virtual machine environments, therefore, for the correct works of the vagrant needs to provide a virtual environment like VirtualBox, VMware, AWS... or other.  
 
