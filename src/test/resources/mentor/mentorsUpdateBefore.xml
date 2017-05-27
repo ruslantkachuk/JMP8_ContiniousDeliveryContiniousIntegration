@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <Mentor id="1"
+            first_name="MentorFirst1"
+            last_name="MentorLast1"
+            email="MentorFirst1_MentorLast1@epam.com"
+            level="D5"
+            main_skill="Java"/>
+    <Mentor id="2"
+            first_name="MentorFirst2"
+            last_name="MentorLast2"
+            email="MentorFirst2_MentorLast2@epam.com"
+            level="D5"
+            main_skill="Java"/>
+    <Mentor id="3"
+            first_name="MentorFirst3"
+            last_name="MentorLast3"
+            email="MentorFirst3_MentorLast3@epam.com"
+            level="D5"
+            main_skill="Java"/>
+</dataset>

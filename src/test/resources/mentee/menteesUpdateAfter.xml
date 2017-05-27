@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <Mentee id="1"
+            first_name="MenteeFirst1"
+            last_name="MenteeLast1"
+            email="MenteeFirst1_MenteeLast1@epam.com"
+            level="D3"
+            main_skill="Java"
+            id_mentor="1"/>
+    <Mentee id="2"
+            first_name="MenteeFirst2"
+            last_name="MenteeLast2"
+            email="MenteeFirst2_MenteeLast2@epam.com"
+            level="D3"
+            main_skill="Java"/>
+    <Mentee id="3"
+            first_name="MenteeFirst3"
+            last_name="MenteeLast3"
+            email="MenteeFirst3_MenteeLast3@epam.com"
+            level="D3"
+            main_skill="Java"/>
+    <Mentor id="1"/>
+</dataset>

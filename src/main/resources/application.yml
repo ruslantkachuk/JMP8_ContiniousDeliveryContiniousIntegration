@@ -1,0 +1,46 @@
+spring:
+  profiles.active: devmem
+---
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/jmp?createDatabaseIfNotExist=true
+    username: dev
+    password: ctco-orke
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+---
+spring:
+  profiles: devmem
+  datasource:
+    url: jdbc:hsqldb:mem
+    username: root
+    password: root
+    driver-class-name: org.hsqldb.jdbcDriver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    database-platform: HSQL
+
+---
+spring:
+  profiles: test
+  datasource:
+    url: jdbc:hsqldb:mem
+    username: root
+    password: root
+    driver-class-name: org.hsqldb.jdbcDriver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    database-platform: HSQL
