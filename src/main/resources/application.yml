@@ -44,3 +44,7 @@ spring:
       ddl-auto: create-drop
     show-sql: true
     database-platform: HSQL
+
+---
+server:
+    port: 9000
