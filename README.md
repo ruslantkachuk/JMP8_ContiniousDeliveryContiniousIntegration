@@ -12,6 +12,6 @@ Vagrant is a tool for building and managing virtual machine environments, theref
 
 **Step 4**: run vagrant command from command line: vagrant up
 
-**Step 5**: Jenkins will be available on localhost:8080
+**Step 5**: Jenkins will be available on localhost:8080. User: admin, password: admin 
 
-
+**Step 6**: After job deploy finished, application will be available on localhost:8090
